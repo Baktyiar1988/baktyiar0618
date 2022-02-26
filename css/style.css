@@ -24,7 +24,14 @@ body {
   width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
-  border: 1px solid black;
+}
+
+.section {
+  padding: 10px 0;
+}
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
 }
 .header {
   background-color: var(--accent);
@@ -61,16 +68,120 @@ body {
   list-style: none;
 }
 
-}
-.header-menu-item {
-
-}
 .header-menu-link {
   font-size: 16px;
   line-height: 16px;
   padding: 15px 10px;
   text-transform: uppercase;
 }
-.header-menu-link:hover{
-  background-color: var(--accent-light)
+.header-menu-link:hover {
+  background-color: var(--accent-light);
+}
+
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.intro-left {
+  width: 30%;
+}
+.intro-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.intro-right {
+  width: 60%;
+}
+.intro-right h1,
+.intro-right h3,
+.intro-right p {
+  margin: 0 0 15px;
+}
+.contacts {
+  padding: 20px;
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+*/ .phone li {
+  color: #ffff;
+}
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.skills li {
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.code-example {
+  color: var(--pure-white);
+  background-color: var(--accent);
+
+  text-align: center;
+}
+.code-example p {
+  font-style: italic;
+}
+.code-example b {
+  font-style: normal;
+}
+
+.languages {
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+.languages ul {
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+  list-style: none;
+}
+.languages li {
+  padding: 20px 25px;
+}
+
+.edication ol {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+}
+portfolio {
+  color: var(--pure-white);
+  background-color: var(--accent-light);
+}
+.wrapper {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  list-style: none;
+}
+
+.jyldyz {
+  margin: 0;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--accent);
 }
